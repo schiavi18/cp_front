@@ -71,3 +71,53 @@ body {
     font-size: 0.95rem;
     font-weight: 500;
 }
+.botao-globo, .botao-menu {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.titulo-main {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.titulo-açoes {
+    display: flex;
+    gap: 1rem;
+}
+
+.botoes {
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.botoes:hover {
+    background: #f7f7f7;
+}

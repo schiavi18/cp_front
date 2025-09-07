@@ -210,3 +210,100 @@ body {
     padding: 1rem;
     margin-bottom: 1.5rem;
 }
+.preferido, .descricao, .nota, .avaliacao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 1rem;
+    position: relative;
+}
+
+.descricao, .nota, .avaliacao {
+    border-left: 1px solid #ddd;
+}
+
+.preferido {
+    align-items: center;
+    text-align: center;
+}
+
+.preferido strong {
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.descricao {
+    flex-grow: 1;
+}
+
+.descricao p {
+    font-size: 0.85rem;
+    color: #717171;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.nota, .avaliacao {
+    align-items: center;
+    text-align: center;
+}
+
+.nota strong, .avaliacao strong {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.nota span, .avaliacao span {
+    font-size: 0.9rem;
+    color: #717171;
+}
+
+.nota span {
+    color: #222;
+    font-size: 0.8rem;
+}
+
+.divisao {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 1.5rem 0;
+}
+
+.info-preco {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    min-width: 320px;
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.2rem;
+}
+
+.info-preco .preco {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.info-preco .preco-antigo {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 1.1rem;
+}
+
+.info-preco .preco-atual {
+    color: #222;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.info-preco .preco-periodo {
+    color: #717171;
+    font-size: 1rem;
+}

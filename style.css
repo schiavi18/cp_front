@@ -27,3 +27,47 @@ body {
 .logo {
     height: 36px;
 }
+
+.barra-central {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    font-size: 1rem;
+    gap: 0.5rem;
+}
+
+.barra-central .divisao {
+    width: 1px;
+    height: 20px;
+    background: #eee;
+    margin: 0 0.5rem;
+}
+
+.botao-lupa {
+    background: #ff385c;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-actions a {
+    color: #222;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+}

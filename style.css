@@ -121,3 +121,46 @@ body {
 .botoes:hover {
     background: #f7f7f7;
 }
+.galeria {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.galeria-main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px 0 0 16px;
+    display: block;
+}
+
+.galeria-restante {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.galeria-foto {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.galeria-foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.galeria-restante .galeria-foto:nth-child(2) img {
+    border-radius: 0 16px 0 0;
+}
+
+.galeria-restante .galeria-foto:nth-child(4) img {
+    border-radius: 0 0 16px 0;
+}

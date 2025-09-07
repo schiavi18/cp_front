@@ -307,3 +307,77 @@ body {
     color: #717171;
     font-size: 1rem;
 }
+
+.reserva-card {
+    border: 1px solid #b0b0b0;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.reserva-row {
+    display: none;
+}
+
+.reserva-datas {
+    display: flex;
+    width: 100%;
+}
+
+.reserva-campo {
+    padding: 0.6rem 0.8rem;
+}
+
+.reserva-datas .reserva-campo {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.reserva-datas .reserva-campo:first-child {
+    border-right: 1px solid #b0b0b0;
+}
+
+.reserva-hospedes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #b0b0b0;
+    padding-right: 0.8rem;
+    cursor: pointer;
+}
+
+.reserva-label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #222;
+    letter-spacing: 0.5px;
+}
+
+.reserva-valor-texto {
+    font-size: 0.9rem;
+    color: #222;
+}
+
+.reserva-seta {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #222;
+}
+
+.btn-reservar {
+    background: linear-gradient(90deg, #ff385c 0%, #e61e4d 100%);
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    padding: 0.9rem 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 0.7rem;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(255,56,92,0.08);
+    transition: background 0.2s;
+}

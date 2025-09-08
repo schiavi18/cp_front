@@ -26,4 +26,7 @@ O site oferece uma prévia clara e acolhedora da hospedagem, transmitindo
 - Julia Schiavi
 - Josué Faria
 
+## 💻 LINK SITE
+- https://schiavi18.github.io/cp_front/
+
 
